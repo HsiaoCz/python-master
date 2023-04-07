@@ -19,6 +19,7 @@ class Date:
     # 静态方法调用和普通函数一样，静态方法需要使用类名来点
     # 静态方法有一个问题，就是类名是硬编码的
     # 静态方法将方法提升到类的名称空间里
+    # 静态方法的在不需要返回类的属性的时候，是比较好用的
     def parse_form_string(date_str):
         year, month, day = tuple(date_str.split("-"))
         return Date(int(year), int(month), int(day))
