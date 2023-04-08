@@ -25,6 +25,7 @@ def file_open(file_name):
 
 # yield之前的相当于enter之中要做的事
 # yield之后相当于exit之中的要做的事
+# yield将函数变成生成器
 
 
 with file_open("./.git") as f_opend:
