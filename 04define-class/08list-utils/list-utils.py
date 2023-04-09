@@ -24,3 +24,7 @@ my_dict = {"hello": 1, "hi": 2}
 
 hello_dict = {value: key for key, value in my_dict.items()}
 print(hello_dict)
+
+# 集合推导式
+my_set = {value for value in my_dict.items()}
+print(my_set)
